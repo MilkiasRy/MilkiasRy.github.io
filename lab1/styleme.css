@@ -23,17 +23,13 @@ strong{
 color: yellow;
 }
 
-a :hover{
+a:visited{
     color: red;
-    
-    text-decoration:underline;
-   
-    
 }
-
- a:link {
-  text-decoration: none;
- 
-   
-    
+a:hover{
+    color:  gold;
+    text-decoration: underline;
+}
+a:active{
+    color: #0000ff;
 }
