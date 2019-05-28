@@ -22,10 +22,8 @@ h1{
 strong{
 color: yellow;
 }
-span{
-    color: red;
-}
-span :hover{
+
+a :hover{
     color: red;
     font-style: bold;
     text-decoration:underline;
