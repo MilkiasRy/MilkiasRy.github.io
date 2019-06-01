@@ -1,0 +1,96 @@
+
+
+body{
+    background-image: url("images-2/background.png");
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 8pt;
+    border:4px;
+
+
+}
+#idbanner{
+
+    background-image: url("images-2/banner.png");
+ 
+    background-repeat: repeat-x;
+ 
+    
+    
+
+}
+#moveieId{
+text-align: center;
+font-size: 24px;
+text-shadow: 3px 3px #999999;
+
+}
+#block1{
+    border: 4px solid gray;
+    border-radius: 30px;
+    width: 800px;
+    margin: auto;
+    width: 61%;
+    overflow: auto;
+    
+}
+
+.block2{
+    
+    float: right;
+    width: 240px;
+    background-color: #a2b964;
+}
+.block2 dl{
+    padding: 41px; 
+   
+    
+}
+.blkrotten1{
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding:8px;
+    background-color: #E8dc9b;
+}
+.blkrotten1 >img{
+    margin-right:5px;
+}
+.blkrotten2{
+    padding: 5px;
+}
+.reviewcnt{
+    vertical-align: baseline;
+}
+footer{
+   background-color:#a2b964;
+    text-align: center;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    padding: 1rem;
+    clear: right;
+}
+.blkrotten2 :nth-child(1) {
+vertical-align: baseline;
+padding: 5px;
+
+
+}
+.blkrotten2 :nth-child(1) img{
+    vertical-align: top;
+    float: left;
+}
+.valdatorImg{
+
+position: fixed;
+bottom: 0px;
+right: 0px;
+}
+#percentId{
+    background-image: url("images-2/rbg.png");
+    font-size: 50pt;
+    color: red;
+}
+#blockreview{
+clear: left;
+column-count: 2;
+}
