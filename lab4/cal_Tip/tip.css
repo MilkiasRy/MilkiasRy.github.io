@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 250px;
+    margin-top: 0%;
+    margin-right: 30px;
+  
+   
+}
+h1{
+
+   
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+   
+}
+button{
+   font-size: 36px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+input[type=text],select{
+    width: 30%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 14px 20px;
+    margin: 10px 0;
+   
+
+}
+label{
+    font-size: 35px;
+}
