@@ -1,0 +1,152 @@
+label{
+    display:inline-block;
+
+}
+
+.top,.bottom{
+    text-align: center;
+    
+}
+.top img{
+      width: 160px;
+    height: 90x
+}
+
+.silver{
+    float: left;
+    margin-top: 50px;
+    margin-right: 5px;
+    
+}
+.bottom p{
+    color: white;
+    font-size: 25px;
+    float: left;
+    margin-top: 50px;
+    text-align: left;
+}
+.hl{
+    width: 800px;
+    margin: auto;
+}
+.bottom{
+    background-image: url(bank/sliver);
+    height: 210px;
+     margin: auto;
+    
+}
+#sec{
+   width: 20px;
+    height: 20px; 
+    
+}
+#faq{
+    color: white;
+    margin-left: 0px;
+    margin-top: 20px;
+
+}
+
+.secfaq img{
+       margin-right: 6px;
+}
+.secfaq{
+    width: 250px;
+    margin-left: 220px;
+    margin-right: 0px;
+}
+
+.secfaq a{
+    color: white;
+    float: left;
+    margin-left: 20px;
+    margin-right: 0px;
+ 
+    
+}
+.secfaq a:hover{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.bottom img{
+    width: 370px;
+    height: 130x
+}
+.contact p{
+    margin-top: 0px;
+}
+pre{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.personal2 img{
+    float: right;
+      width: 220px;
+    height: 140x
+}
+.personal1{
+    float: left;
+    width: 60%;
+    margin-right: 35px;
+}
+.personal2{
+    float: left;
+    width: 20%;
+    margin-top: 20px;
+}
+.personal{
+    overflow: auto;
+}
+.main{
+    max-width: 800px;
+    margin: auto;
+}
+
+input[type="text"],select{
+    height: 30px;
+    display:block;
+}
+
+label{
+    font-size: 20px;
+    
+}
+
+
+input[type="text"]{
+    margin-right: 30px;
+    margin-bottom: 50px;
+    
+}
+.fs{
+    width: 350px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+h2{
+   color: gold;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+}
+
+#ba{
+    margin-right: 35px;
+}
+
+input[type="submit"]{
+     width: 800px;
+    height: 40px;
+    color: white;
+    background-color: #0D74AF;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.submit{
+    text-align: center;
+   
+}
