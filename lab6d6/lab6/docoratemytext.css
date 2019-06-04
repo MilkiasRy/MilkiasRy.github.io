@@ -1,0 +1,38 @@
+
+body {
+	font-family: "Arial", "Helvetica", sans-serif;
+	font-size: 12pt;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#header {
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-size: 200%;
+	font-weight: normal;
+	font-style: italic;
+	font-family: "Impact", fantasy;
+}
+
+textarea {
+	font-family: monospace;
+	font-size: 12pt;
+}
+legend{
+    font-weight: bold;
+    font-size: 20Px;
+    font-family: Arial;
+
+}
+
+input{
+    margin-bottom: 20px;
+	margin-top: 20px;
+}
+#ta {
+	width: 400px;
+}
