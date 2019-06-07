@@ -18,6 +18,7 @@ function clickStart() {
         //var scenes = animation.split("=====\n");
         timer = setInterval(animate, 250);
         document.getElementById('btnStart').disabled=true;
+        // click turn off
         document.getElementById('btnStop').disabled=false;
         document.getElementById('animation').disabled=true;
         document.getElementById('turbo').disabled=false;
@@ -28,6 +29,9 @@ function animate() {
     
         var scenes = animation.split("=====\n");
         var txt = document.getElementById('stage');
+
+
+        // if stage  count =0  35 -1 34=0 flase 
         if (counter === scenes.length-1) {
             txt.value = scenes[counter];
             counter = 0;

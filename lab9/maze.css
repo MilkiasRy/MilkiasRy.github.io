@@ -1,0 +1,16 @@
+
+
+#start{
+   
+    color: greenyellow;
+}
+.boundary{
+    background-color:white;
+}
+.youlose{
+    background-color: red;
+}
+#end{
+    background-color: darkorchid;
+    color: blueviolet;
+}
