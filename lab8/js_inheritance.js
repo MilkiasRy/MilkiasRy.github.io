@@ -21,11 +21,11 @@ var objectCreators=(function(){
         return newObj;
     }
     var start=function(){
-        var bicycle=createBicyclePrototype();
-    console.log(bicycle.speed);
-    bicycle.speedUp(5);
-    bicycle.applyBrake(2);
-     console.log(bicycle.speed);
+        var bicyclePrototype=createBicyclePrototype();
+    console.log(bicyclePrototype.speed);
+    bicyclePrototype.speedUp(5);
+    bicyclePrototype.applyBrake(2);
+     console.log(bicyclePrototype.speed);
     var mountainBike=createMountainBikePrototype(bicycle);
     mountainBike.setGear(30);
      console.log(mountainBike.speed);

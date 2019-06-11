@@ -10,18 +10,18 @@ $(document).ready(function(){
 
 
 });
-function gettingRed(evnt){
+function gettingRed(){
     if(rice){
         $(this).css("background-color","#ff8888").addClass("hovered");
     }
 }
-function start(evt) {
+function start() {
   rice = true;
     $("div.boundary").removeClass("hovered").css("background-color", "#eeeeee");
     $("#status").text('Click the "S" to begin.');
     return rice;
 }
-function end(evt) {
+function end() {
     if (rice) {
        rice = false;
         if (checkResult()) {
